@@ -1,4 +1,5 @@
-export const mockCharacters = [
+import { CharacterStructure } from "../../models/characters/characters";
+export const mockCharacters: CharacterStructure[] = [
   {
     id: 1,
     serie: "Game of Trones",
